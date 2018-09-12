@@ -17,3 +17,7 @@ Run this command to see if everything is working:
     downloadallthethings --help
 
 and then you can set the parameters like how many threads you want to use to download files and scrap pages. All arguments that are not a flags will be treated as an urls and tried to be downloaded.
+
+Example:
+
+    downloadallthethings -v -threads 4 [URL]
